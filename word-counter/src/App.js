@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Colorpicker from './components/Colorpicker';
-
+import TaskOne from './Components/TaskOne';
 
 function App() {
   return (
-    <div className="App">
-      <Colorpicker />
+    <div className='App'>
+      <TaskOne />
     </div>
   );
 }
